@@ -22,6 +22,7 @@ window = pyglet.window.Window(resizable=True)
 lightfv = ctypes.c_float * 4
 
 # change for git
+# change for pull
 
 @window.event
 def on_resize(width, height):
