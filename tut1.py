@@ -16,10 +16,12 @@ import pywavefront
 file_abspath = os.path.join(os.path.dirname("/Users/jaeheechoi/Documents/PythonGraphics/"), 'arbitrary-faces.obj')
 
 rotation = 0
+
 meshes = pywavefront.Wavefront(file_abspath)
 window = pyglet.window.Window(resizable=True)
 lightfv = ctypes.c_float * 4
 
+# change for git
 
 @window.event
 def on_resize(width, height):
